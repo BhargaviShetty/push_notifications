@@ -31,7 +31,7 @@ export class TestComponent implements OnInit {
    
     else if (Notification.permission === "granted") {
       
-      var notification = new Notification("Hi I am the notification!");
+      var notification = new Notification("Hi I am the notification sent by Bhargavi!!");
     }
   
    
@@ -39,7 +39,7 @@ export class TestComponent implements OnInit {
       Notification.requestPermission(function (permission) {
 
         if (permission === "granted") {
-          var notification = new Notification("Hi I am the notification!");
+          var notification = new Notification("Hi I am the notification sent by Bhargavi!!");
         }
       });
     }
