@@ -1,0 +1,12 @@
+<app-navbar></app-navbar>
+<div>
+    <h1>Your Todos</h1>
+    <div>
+        <table>
+            <tr *ngFor="let todo of (todos | sort); let i=index">
+                <td>{{i+1}}.</td>
+                <td>{{todo}}</td>
+            </tr>
+        </table>
+    </div>
+</div>

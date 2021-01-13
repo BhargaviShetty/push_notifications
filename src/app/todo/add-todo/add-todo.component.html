@@ -1,0 +1,6 @@
+<form [formGroup]="todoForm">
+    <input type="text" id="todo" formControlName="todo">
+    <button type="submit" (click)="add()">Add Todo</button>
+</form>
+
+<button (click)="goToShowTodo()">Show</button>

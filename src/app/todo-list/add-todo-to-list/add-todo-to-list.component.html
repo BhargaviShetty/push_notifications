@@ -1,0 +1,8 @@
+<app-navbar></app-navbar>
+<div>
+    <h1>Add Todo</h1>
+    <form [formGroup]="todoForm">
+        <input type="text" formControlName="todoData">
+        <button (click)="addTodo()">Add todo</button>
+    </form>
+</div>

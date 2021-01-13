@@ -1,0 +1,43 @@
+<h1>Welcome to the world of books</h1>
+
+<button (click)="goToTodo()">Go to todo section</button>
+
+<div class="getAllBooksDiv">
+    <h2>Get all books</h2>
+    <button type="submit" (click)="getAllBooks()">Get all books</button>
+</div>
+
+<br/>
+
+<div class="getABookDiv">
+    <h2>Get A Book</h2>
+    <!-- <span>Enter the id: </span><input type="text"> -->
+    <button type="button" class="btn btn-primary" (click)="getABook()">Get a book by id</button>
+</div>
+
+<br/>
+
+<div class="addABookDiv">
+    <h2>Add A Book</h2>
+    <!-- <span>Author: </span><input type="text">
+    <span>Title: </span><input type="text">
+    <span>Publisher: </span><input type="text">
+    <span>Published date: </span><input type="text"> -->
+    <button type="submit" (click)="postABook()">Add a book</button>
+</div>
+
+<br/>
+
+<div class="updateABookDiv">
+    <h2>Update A Book</h2>
+    <!-- <span>Enter the id: </span><input type="text"> -->
+    <button type="submit" (click)="updateABook()">Update a book by id</button>
+</div>
+
+<br/>
+
+<div class="deleteABookDiv">
+    <h2>Delete A Book</h2>
+    <!-- <span>Enter the id: </span><input type="text"> -->
+    <button type="submit" (click)="deleteABook()">Delete a book by id</button>
+</div>

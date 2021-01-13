@@ -1,0 +1,33 @@
+h1, h2{
+    background-color: rgb(92, 13, 112);
+    color: white;
+    padding: 20px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    min-height: 200px;
+    background-color: rgb(212, 175, 212);
+    color: white;
+    padding: 20px;
+    box-shadow: 10px 10px 5px gray;
+}
+
+// button{
+//     background-color: yellowgreen;
+//     padding: 10px;
+//     &:hover{
+//         background-color: yellow;
+//     }
+// }
+
+input{
+    border: 2px solid black;
+}
+
+span{
+    color: black;
+}
